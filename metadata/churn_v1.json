@@ -1,0 +1,1 @@
+{"name": "churn", "metrics": "f1:0.7486943676469132", "version": 1, "registration_date": "2024-06-22T21:25:11.866955", "model": "churn_model_v1.joblib", "features": "churn_features_v1.joblib"}
