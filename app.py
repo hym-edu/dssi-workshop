@@ -63,11 +63,12 @@ def app_sidebar():
                           'TotalCharges': int(2283), #Mean
                         }
         return input_features
-    sdb_col1 = st.sidebar.columns(1)
-    with sdb_col1:
-        predict_button = st.sidebar.button("Assess", key="predict")
+    
+    predict_button = st.sidebar.button("Assess", key="predict")
+    
     if predict_button:
         st.session_state['input_features'] = get_input_features()
+    
     return None
 
 def app_body():
