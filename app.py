@@ -14,7 +14,7 @@ def app_sidebar():
     SeniorCitizen_options = [0,1]
     SeniorCitizen = st.sidebar.selectbox("Customer Age >= 65 (1 for Yes)", SeniorCitizen_options)
 
-    tenure = st.sidebar.slider('Tenure Months', 1, 70, 35, 1)
+    tenure = st.sidebar.slider('Tenure Months', 1, 70, 1, 1)
 
     YN_options = ['Yes','No']
     Partner = st.sidebar.selectbox("Customer Has a Partner", YN_options)
